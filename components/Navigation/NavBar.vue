@@ -1,13 +1,13 @@
 <template>
-  <nav class="ease-in-out duration-300 w-full absolute bg-white">
+  <nav class="ease-in-out duration-300 w-full absolute z-10">
     <div class="flex container mx-auto items-center justify-between px-6 py-4 w-full">
-      <div class="w-36">
+      <div class="w-12">
         <NavigationLogo></NavigationLogo>
       </div>
 
       <UiButtonsMenu @revealMenu="toggleMenu()" />
 
-      <nav :class="menu_revealed ? 'translate-x-0' : '-translate-x-full'" class="md:h-fit z-100 md:static md:bg-transparent w-full md:w-fit fixed h-screen left-0 top-[65.5px] md:top duration-150 ease-in-out md:translate-x-0 bg-white">
+      <nav :class="menu_revealed ? 'translate-x-0' : '-translate-x-full'" class="md:h-fit z-100 md:static md:bg-transparent w-full md:w-fit fixed h-screen left-0 top-20 md:top duration-150 ease-in-out md:translate-x-0 bg-secondary">
         <ul class="grid grid-cols-1 place-items-center md:flex gap-5 md:gap-3 lg:gap-5 items-center px-6 pt-20 md:p-0">
           <li>
             <UiButtonsTertiary @clicked="$router.push({name: 'index'})">Home</UiButtonsTertiary>
