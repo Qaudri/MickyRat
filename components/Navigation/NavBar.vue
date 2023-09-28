@@ -16,10 +16,10 @@
             <UiButtonsTertiary @clicked="$router.push({name: 'courses'})">About Us</UiButtonsTertiary>
           </li>
           <li>
-            <UiButtonsTertiary @clicked="$router.push({name: 'blog'})">Road Map</UiButtonsTertiary>
+            <UiButtonsTertiary @clicked="$router.push({name: 'index', hash: '#roadmap'})">Road Map</UiButtonsTertiary>
           </li>
           <li>
-            <UiButtonsTertiary @clicked="$router.push({name: 'login'})">Tokenomics</UiButtonsTertiary>
+            <UiButtonsTertiary @clicked="$router.push({name: 'index', hash: '#tokenomics'})">Tokenomics</UiButtonsTertiary>
           </li>
           <li>
             <UiButtonsPrimary @clicked="$router.push({name: 'signup'})">Sign Up</UiButtonsPrimary>

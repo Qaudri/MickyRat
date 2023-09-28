@@ -5,7 +5,19 @@
       <img src="@/assets/images/logo-nobg.svg" class="h-screen-70 aspect-auto mx-auto" alt="">
       <div>
         <h1 class="text-9xl honey hidden lg:block">Micky Rat</h1>
-        <UiTypographyP class="w-full mt-8 ">Micky Rat is a unique meme/Utility Token that seeks to reward investors by ensuring profitable return on investment (ROI) through the building and development of service utilities, powered by the Micky Rat tokens and distribute 30% of annual profits to investors in BNB or pay back profits into the liquidity Pool in order to keep the token price afloat to the benefit of all investors. Micky Rat also seeks to create value and serve as a reward token for exceptional performers in various fields of operations by the use of the Micky Rat Swap and NFTs Marketplace. This project is engineered and developed by a team of smart contract and DAPP developers with the name Micky Rat.  Micky Rat Foundation promises a fun and interactive engagement throughout its stay in the Crypto space. It aims to support children in need across Africa and Asia aside its load of investor-profitable utilities.</UiTypographyP>
+        <UiTypographyP class="w-full mt-4">Micky Rat is a unique meme/Utility Token that seeks to reward investors by ensuring profitable return on investment (ROI) through the building and development of service utilities, powered by the Micky Rat tokens and distribute 30% of annual profits to investors in BNB or pay back profits into the liquidity Pool in order to keep the token price afloat to the benefit of all investors. Micky Rat also seeks to create value and serve as a reward token for exceptional performers in various fields of operations by the use of the Micky Rat Swap and NFTs Marketplace. This project is engineered and developed by a team of smart contract and DAPP developers with the name Micky Rat.  Micky Rat Foundation promises a fun and interactive engagement throughout its stay in the Crypto space. It aims to support children in need across Africa and Asia aside its load of investor-profitable utilities.</UiTypographyP>
+
+        <div class="flex gap-8 mt-8">
+        <NuxtLink to="https://t.me/Mickyratbsc" class="group py-2 px-5 text-black focus:text-white hover:text-white bg-secondary hover:bg-primary focus:outline-primary border-primary border font-medium text-base 2xl:text-lg justify-center duration-300 ease-in-out rounded-md outline-none focus:outline-none flex items-center gap-4">
+          <IconsTelegram class="w-7 h-7 text-black group-hover:text-white duration-300 ease-in-out" />
+          <UiTypographyP>Join Telegram</UiTypographyP> 
+        </NuxtLink>
+        <NuxtLink to="https://t.me/Mickyratbsc" class="group py-2 px-5 text-black focus:text-white hover:text-white bg-secondary hover:bg-primary focus:outline-primary border-primary border font-medium text-base 2xl:text-lg justify-center duration-300 ease-in-out rounded-md outline-none focus:outline-none flex items-center gap-4">
+          <IconsTwitter to="https://twitter.com/rat_micky55647" class="w-7 h-7 text-black group-hover:text-white duration-300 ease-in-out" />
+          <UiTypographyP>Follow on Twitter</UiTypographyP> 
+        </NuxtLink>
+
+        </div>
       </div>
     </div>
 
@@ -36,13 +48,13 @@
     </div>
   </section>
 
-  <section class="max-w-7xl py-20 px-6 container mx-auto text-center">
+  <section id="tokenomics" class="max-w-7xl py-20 px-6 container mx-auto text-center">
     <UiTypographyH1 class="text-primary">Tokenomics</UiTypographyH1>
     <UiTypographyP>Name: Micky Rat<br/>Symbol: Micky<br/>Decimal: 18<br/>Total supply: 2,000,000,000 <br/><br/>Tax 8%<br/>Marketing 3%
     <br/>Development 2%<br/>Liquidity pool 2%<br/>Reflection 1%</UiTypographyP>
   </section>
 
-  <section class="max-w-7xl py-20 px-6 container mx-auto">
+  <section id="roadmap" class="max-w-7xl py-20 px-6 container mx-auto">
     <UiTypographyH1 class="text-primary text-center">Road Map</UiTypographyH1>
     <ul class="grid md:grid-cols-2 xl:grid-cols-4 gap-12 mt-8">
       <Cards>
