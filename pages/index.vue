@@ -50,8 +50,8 @@
 
   <section id="tokenomics" class="max-w-7xl py-20 px-6 container mx-auto text-center">
     <UiTypographyH1 class="text-primary">Tokenomics</UiTypographyH1>
-    <UiTypographyP>Name: Micky Rat<br/>Symbol: Micky<br/>Decimal: 18<br/>Total supply: 1,000,000,000 <br/><br/>Tax 8%<br/>Marketing 3%
-    <br/>Development 2%<br/>Liquidity pool 2%<br/>Reflection 1%</UiTypographyP>
+    <UiTypographyP>Name: Micky Rat<br/>Symbol: Micky<br/>Decimal: 9<br/>Total supply: 1,000,000,000 <br/><br/>TAX 8%<br/>Marketing 4%
+    <br/>Liquidity pool 1%<br/>Reflection 3%</UiTypographyP>
   </section>
 
   <section id="roadmap" class="max-w-7xl py-20 px-6 container mx-auto">
